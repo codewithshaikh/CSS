@@ -1,0 +1,45 @@
+#box1{
+	width: 600px;
+	height: 300px;
+	border: dotted 40px red;
+	margin: 250px 20px;
+	background-color: yellow;
+	color: red;
+	background-clip: padding-box;
+	float: left;
+}
+#box1 h1{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+}
+#box1 p{
+	width: 500px;
+	text-align: justify;
+	margin: 20px auto;
+	font-style: italic;
+	font-size: 15px;
+}
+
+#box2{
+	width: 600px;
+	height: 300px;
+	border: dotted 40px blue;
+	margin: 250px 20px;	
+	background-color: pink;
+	color: midnightblue;
+	background-clip: content-box;
+	float: left;
+}
+#box2 h1{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+}
+#box2 p{
+	width: 500px;
+	text-align: justify;
+	margin: 20px auto;
+	font-style: italic;
+	font-size: 15px;
+}

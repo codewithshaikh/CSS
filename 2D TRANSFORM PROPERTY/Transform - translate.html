@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .translate-X1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: aquamarine;
+            float: left;
+            margin: 100px 140px;
+            transform: translateX(100px);
+        }        
+        .translate-Y1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:plum;
+            float: left;
+            margin: 100px 140px;
+            transform: translateY(100px);
+        }
+        .translate1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:coral;
+            float: left;
+            margin: 100px 140px;
+            transform: translate(100px , 100px);
+        }
+
+        .translate-X
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: aquamarine;
+            float: left;
+            margin: 0px 140px;
+            transition: all 1s;
+        }
+        .translate-X:hover
+        {
+            transform: translateX(100px);
+        }
+        .translate-Y
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:plum;
+            float: left;
+            margin: 0px 140px;
+            transition: all 1s;
+        }
+        .translate-Y:hover
+        {
+            transform: translateY(100px);
+        }
+        .translate
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:coral;
+            float: left;
+            margin: 0px 140px;
+            transition: all 1s;
+        }
+        .translate:hover
+        {
+            transform: translate(100px , 100px);
+        }
+    </style>
+</head>
+<body>
+
+    <h1><u>Transform : Translate Property</u></h1>
+    
+    <div class="translate-X1">
+        <p  >Transform : translate-X</p>
+    </div>
+    <div class="translate-Y1">
+        <p  >Transform : translate-Y</p>
+    </div>
+    <div class="translate1">
+        <p  >Transform : translate(X , Y)</p>
+    </div>
+
+    <div class="translate-X">
+        <p  >Transform : translate-X</p>
+    </div>
+    <div class="translate-Y">
+        <p  >Transform : translate-Y</p>
+    </div>
+    <div class="translate">
+        <p  >Transform : translate(X , Y)</p>
+    </div>
+
+</body>
+</html>

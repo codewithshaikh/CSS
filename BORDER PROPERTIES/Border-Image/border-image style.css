@@ -1,0 +1,54 @@
+#box1{
+	width: 350px;
+	height: 250px;
+	border: 100px solid;
+	padding: 30px;
+	margin: 100px 50px;
+	background-color: green;
+	border-image-source: url("img1.png");
+	border-image-slice: 100;
+	border-image-outset: -50px;
+	border-image-width: 100px;
+	float: left;
+}
+
+#box2{
+	width: 350px;
+	height: 250px;
+	border: 100px solid;
+	padding: 20px;
+	margin: 100px 50px;
+	border-image-source: url("img2.png");
+	border-image-slice: 70;
+	border-image-outset: -50px;
+	border-image-width: 100px;
+	float: left;
+}
+
+#box3{
+	width: 350px;
+	height: 250px;
+	border: 100px solid;
+	padding: 30px;
+	margin: 100px 50px;
+	border-image-source: url("img4.jpg");
+	border-image-slice: 250;
+	border-image-outset: -50px;
+	border-image-width: 100px;
+	float: left;
+}
+
+#box4{
+	width: 350px;
+	height: 250px;
+	border: 100px solid;
+	padding: 10px;
+	margin: 100px 50px;
+	border-image-source: url("img3.jpg");
+	border-image-slice: 60;
+	border-image-outset: -50px;
+	border-image-width: 80px;
+	float: left;
+}
+
+

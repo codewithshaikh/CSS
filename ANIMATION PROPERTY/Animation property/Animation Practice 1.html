@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animation Practice 1</title>
+
+	<style type="text/css">
+
+		body{
+			background-color: papayawhip;
+			font-family: algerian;
+		}
+		
+		h1{
+			background-color: red;
+			padding: 25px;
+			text-align: center;
+			font-size: 50px;
+			font-style: italic;
+			color: white;
+			font-weight: bold;
+			animation-name: h1;
+			animation-duration: 10s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+		@keyframes h1{
+			0%{background-color: red; color: white;}
+			10%{background-color: orange; color: red;}
+			20%{background-color: yellow; color: orange;}
+			30%{background-color: blue; color: yellow;}
+			40%{background-color: purple; color: blue;}
+			50%{background-color: cyan; color: purple;}
+			60%{background-color: green; color: cyan;}
+			70%{background-color: yellowgreen; color: green;}
+			80%{background-color: lightblue; color: yellowgreen;}
+			90%{background-color: silver; color: lightblue;}
+			100%{background-color: white; color: silver;}
+		}
+
+		.div1{
+			width: 250px;
+			height: 250px;
+			background-color: white;
+			float: left;
+			margin: 200px 50px;
+			text-align: center;
+			line-height: 250px;
+			font-size: 25px;
+			font-style: italic;
+			font-weight: bold;
+			box-shadow: 10px 10px 10px 0px gray;
+			text-shadow: 10px 10px 5px gray;
+			animation-name: sachin1;
+			animation-duration: 10s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		@keyframes sachin1{
+			0%{	width: 250px;
+				height: 250px;
+				line-height: 250px;
+				background-color: red;
+				color: white;
+				font-size: 25px;
+				box-shadow: 10px 10px 10px 0px gray;
+				text-shadow: 10px 10px 5px gray;}
+			25%{	width: 200px;
+				height: 200px;
+				line-height: 200px;
+				background-color: orange;
+				color: red;
+				border-radius: 50%;
+				font-size: 20px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			50%{	width: 150px;
+				height: 150px;
+				line-height: 150px;
+				background-color: yellow;
+				color: orange;
+				border-radius: 50%;
+				font-size: 15px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			75%{	width: 100px;
+				height: 100px;
+				line-height: 100px;
+				background-color: blue;
+				color: yellow;
+				border-radius: 50%;
+				font-size: 10px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			100%{width: 50px;
+				height: 50px;
+				line-height: 50px;
+				background-color: purple;
+				color: skyblue;
+				border-radius: 50%;
+				font-size: 5px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+		}
+
+		.div2{
+			width: 250px;
+			height: 250px;
+			background-color: white;
+			float: left;
+			margin: 200px 50px;
+			text-align: center;
+			line-height: 250px;
+			font-size: 25px;
+			font-style: italic;
+			font-weight: bold;
+			box-shadow: 10px 10px 10px 0px gray;
+			text-shadow: 10px 10px 5px gray;
+			animation-name: sachin2;
+			animation-duration: 10s;
+			animation-delay: 3s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		@keyframes sachin2{
+			0%{	width: 250px;
+				height: 250px;
+				line-height: 250px;
+				background-color: red;
+				color: white;
+				font-size: 25px;
+				box-shadow: 10px 10px 10px 0px gray;
+				text-shadow: 10px 10px 5px gray;}
+			25%{	width: 200px;
+				height: 200px;
+				line-height: 200px;
+				background-color: orange;
+				color: red;
+				border-radius: 50%;
+				font-size: 20px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			50%{	width: 150px;
+				height: 150px;
+				line-height: 150px;
+				background-color: yellow;
+				color: orange;
+				border-radius: 50%;
+				font-size: 15px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			75%{	width: 100px;
+				height: 100px;
+				line-height: 100px;
+				background-color: blue;
+				color: yellow;
+				border-radius: 50%;
+				font-size: 10px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			100%{width: 50px;
+				height: 50px;
+				line-height: 50px;
+				background-color: purple;
+				color: skyblue;
+				border-radius: 50%;
+				font-size: 5px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+		}
+
+		.div3{
+			width: 250px;
+			height: 250px;
+			background-color: white;
+			float: left;
+			margin: 200px 50px;
+			text-align: center;
+			line-height: 250px;
+			font-size: 25px;
+			font-style: italic;
+			font-weight: bold;
+			box-shadow: 10px 10px 10px 0px gray;
+			text-shadow: 10px 10px 5px gray;
+			animation-name: sachin3;
+			animation-duration: 10s;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		@keyframes sachin3{
+			0%{	width: 250px;
+				height: 250px;
+				line-height: 250px;
+				background-color: red;
+				color: white;
+				font-size: 25px;
+				box-shadow: 10px 10px 10px 0px gray;
+				text-shadow: 10px 10px 5px gray;}
+			25%{	width: 200px;
+				height: 200px;
+				line-height: 200px;
+				background-color: orange;
+				color: red;
+				border-radius: 50%;
+				font-size: 20px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			50%{	width: 150px;
+				height: 150px;
+				line-height: 150px;
+				background-color: yellow;
+				color: orange;
+				border-radius: 50%;
+				font-size: 15px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			75%{	width: 100px;
+				height: 100px;
+				line-height: 100px;
+				background-color: blue;
+				color: yellow;
+				border-radius: 50%;
+				font-size: 10px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			100%{width: 50px;
+				height: 50px;
+				line-height: 50px;
+				background-color: purple;
+				color: skyblue;
+				border-radius: 50%;
+				font-size: 5px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+		}
+
+		.div4{
+			width: 250px;
+			height: 250px;
+			background-color: white;
+			float: left;
+			margin: 200px 50px;
+			text-align: center;
+			line-height: 250px;
+			font-size: 25px;
+			font-style: italic;
+			font-weight: bold;
+			box-shadow: 10px 10px 10px 0px gray;
+			text-shadow: 10px 10px 5px gray;
+			animation-name: sachin4;
+			animation-duration: 10s;
+			animation-delay: 4s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		@keyframes sachin4{
+			0%{	width: 250px;
+				height: 250px;
+				line-height: 250px;
+				background-color: red;
+				color: white;
+				font-size: 25px;
+				box-shadow: 10px 10px 10px 0px gray;
+				text-shadow: 10px 10px 5px gray;}
+			25%{	width: 200px;
+				height: 200px;
+				line-height: 200px;
+				background-color: orange;
+				color: red;
+				border-radius: 50%;
+				font-size: 20px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			50%{	width: 150px;
+				height: 150px;
+				line-height: 150px;
+				background-color: yellow;
+				color: orange;
+				border-radius: 50%;
+				font-size: 15px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			75%{	width: 100px;
+				height: 100px;
+				line-height: 100px;
+				background-color: blue;
+				color: yellow;
+				border-radius: 50%;
+				font-size: 10px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+			100%{width: 50px;
+				height: 50px;
+				line-height: 50px;
+				background-color: purple;
+				color: skyblue;
+				border-radius: 50%;
+				font-size: 5px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;}
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1>CSS ANIMATION PRACTICE 1</h1>
+
+	<div class="div1"></div>
+
+	<div class="div2"></div>
+
+	<div class="div3"></div>
+
+	<div class="div4"></div>	
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+body{
+	background-image: url("img1.jpeg"), url("img2.png"), url("img3.jpg");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-size: 540px 800px, 540px 800px, 540px 800px;
+	background-position: 0px 0px, 500px 0px, 1000px 0px;
+}

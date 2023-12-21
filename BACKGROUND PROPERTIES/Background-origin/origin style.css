@@ -1,0 +1,56 @@
+body{
+	background-image: url("img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mainbox1{
+	width: 500px;
+	height: 300px;
+	border: dotted 20px yellow;
+	margin: 250px 100px;
+	background-color: rgba(128, 128, 128, .25);
+	color: white;
+	background-image: url("img2.jpg");
+	background-size: cover;
+	background-origin: content-box;
+	float: left;
+}
+#mainbox1 h1{
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+}
+#mainbox1 p{
+	width: 400px;
+	text-align: justify;
+	margin: 40px auto;
+	font-style: italic;
+	font-size: 15px;
+}
+
+#mainbox2{
+	width: 500px;
+	height: 300px;
+	border: dotted 20px yellow;
+	margin: 250px 100px;
+	background-color: rgba(128, 128, 128, .25);
+	color: white;
+	background-image: url("img2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin:content-box;
+	float: left;
+}
+#mainbox2 h1{
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+}
+#mainbox2 p{
+	width: 400px;
+	text-align: justify;
+	margin: 40px auto;
+	font-style: italic;
+	font-size: 15px;
+}

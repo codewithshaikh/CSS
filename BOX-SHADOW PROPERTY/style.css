@@ -1,0 +1,32 @@
+body{
+	font-family: tahoma;
+	padding-top: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+#main{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#box{
+	width: 400px;
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: 10px 10px 10px 0px gray;
+}
+
+#box img{
+	width: 100%;
+}
+
+#box text{
+	padding: 10px;
+	text-align: center;
+}

@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: gray;
+}
+
+#box{
+	width: 600px;
+	height: 500px;
+	border: solid 20px black;
+	margin: 150px auto;
+	background-image: url("night.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	color: white;
+	background-attachment: fixed;
+}
+#box h1, p{
+	width: 500px;
+	text-align: justify;
+	margin: 30px auto;
+}
+#box h1{
+	font-size: 50px;
+	font-style: italic;
+}
+#box p{
+	font-size: 20px;
+	font-style: italic;
+}

@@ -1,0 +1,26 @@
+body{
+	background-image: url("night.png"), url("night.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-size: 150px 150px, 100% 100%;
+	background-position: 85% 65% ,0% 0%;
+}
+
+#box{
+	width: 700px;
+	height: 250px;
+	border: dashed 5px white;
+	color: rgba(0, 0, 0, 0.6);
+	background-color: transparent;
+	margin: 250px auto;
+}
+#box h1{
+	text-align: center;
+	color: white;
+}
+#box p{
+	width: 600px;
+	color: rgb(255, 255, 255);
+	text-align: justify;
+	font-style: italic;
+	margin-left: 50px;
+}

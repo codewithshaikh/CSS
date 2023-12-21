@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div{
+	width: 350px;
+	height: 250px;
+}
+
+#box1{
+	margin: 30px;
+	border-style: solid ;
+	float: left;
+}
+#box1 h1, p{
+	margin: 20px;
+}
+
+#box2{
+	margin: 30px;
+	border-style: dashed;
+	float: left;
+}
+#box2 h1, p{
+	margin: 20px;
+}
+
+#box3{
+	margin: 30px;
+	border-style: dotted;
+	float: left;
+}
+#box3 h1, p{
+	margin: 20px;
+}
+
+#box4{
+	margin: 30px;
+	border-style: double;
+	float: left;
+}
+#box4 h1, p{
+	margin: 20px;
+}
+
+#box5{
+	margin: 30px;
+	border-style: groove;
+	float: left;
+}
+#box5 h1, p{
+	margin: 20px;
+}
+
+#box6{
+	margin: 40px;
+	border-style: hidden;
+	float: left;
+}
+#box6 h1, p{
+	margin: 20px;
+}
+
+#box7{
+	margin: 30px;
+	border-style: inherit;
+	float: left;
+}
+#box7 h1, p{
+	margin: 20px;
+}
+
+#box8{
+	margin: 30px;
+	border-style: inset;
+	float: left;
+}
+#box8 h1, p{
+	margin: 20px;
+}
+
+#box9{
+	margin: 30px;
+	border-style: outset;
+	float: left;
+}
+#box9 h1, p{
+	margin: 20px;
+}
+
+#box10{
+	margin: 30px;
+	border-style: ridge;
+	float: left;
+}
+#box10 h1, p{
+	margin: 20px;
+}

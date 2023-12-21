@@ -1,0 +1,55 @@
+body{
+	background-image: url("img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#mainbox1{
+	width: 700px;
+	height: 300px;
+	border: dashed 5px yellow;
+	margin: 10px auto;
+	background-color: gray;
+	background: rgba(128, 128, 128, .25);
+	background-image: url("img2.jpg");
+	background-size: cover;
+}
+#mainbox1 h1{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-style: italic;
+}
+#mainbox1 p{
+	width: 600px;
+	color: white;
+	text-align: justify;
+	margin-left: 50px;
+	font-style: italic;
+}
+
+
+#mainbox2{
+	width: 700px;
+	height: 300px;
+	border: dashed 5px yellow;
+	margin: 50px auto;
+	background-color: gray;
+	background: rgba(128, 128, 128, .25);
+	background-image: url("1.png");
+	background-repeat: round;
+}
+#mainbox2 h1{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	font-style: italic;
+}
+#mainbox2 p{
+	width: 600px;
+	color: black;
+	text-align: justify;
+	margin-left: 50px;
+	font-style: italic;
+}

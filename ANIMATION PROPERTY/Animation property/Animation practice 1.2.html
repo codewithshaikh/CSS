@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation</title>
+
+	<style type="text/css">
+
+		body{
+			background-color: papayawhip;
+			font-family: arial;
+		}
+		
+		h1{
+			background-color: red;
+			text-align: center;
+			font-size: 50px;
+			animation-name: h1;
+			animation-duration: 7s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes h1{
+			0%{background-color: red; color: white;}
+			25%{background-color: orange; color: red;}
+			50%{background-color: yellow; color: orange;}
+			75%{background-color: blue; color: yellow;}
+			100%{background-color: purple; color: skyblue;}
+		}
+
+		div{
+			width: 300px;
+			height: 300px;
+			background-color: white;
+			line-height: 300px;
+			font-size: 30px;
+			text-align: center;
+			font-weight: bold;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			box-shadow: 10px 10px 10px 0px gray;
+			text-shadow: 10px 10px 5px gray;
+			animation-name: sachin;
+			animation-duration: 7s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-direction: alternate;
+		}
+		@keyframes sachin{
+			0%{background-color: white; color: black; width: 300px; height: 300px; font-size: 30px;}
+			25%{background-color: red; color: white; border-radius: 50%; width: 250px; height: 250px; font-size: 25px; line-height: 250px;}
+			50%{background-color: orange; color: red; border-radius: 50%; width: 200px; height: 200px; font-size: 20px; line-height: 200px;}
+			75%{background-color: yellow; color: orange; border-radius: 50%; width: 150px; height: 150px; font-size: 15px; line-height: 150px;}
+			100%{background-color: blue; color: yellow; border-radius: 50%; width: 100px; height: 100px; font-size: 10px; line-height: 100px;}
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1>CSS ANIMATION</h1>
+
+	<div>Chauhan Sachin</div>
+
+</body>
+</html>

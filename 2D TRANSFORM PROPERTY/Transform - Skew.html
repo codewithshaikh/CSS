@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .skew-X1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: aquamarine;
+            float: left;
+            margin: 50px 140px;
+            transform: skewX(50deg);
+        }
+        .skew-Y1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: plum;
+            float: left;
+            margin: 50px 140px;
+            transform: skewY(40deg);
+        }
+        .skew1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: coral;
+            float: left;
+            margin: 50px 140px;
+            transform: skew(50deg , 20deg);
+        }
+
+        .skew-X2
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: aquamarine;
+            float: left;
+            margin: 50px 140px;
+            transition: all 1s;
+        }
+        .skew-X2:hover
+        {
+            transform: skewX(50deg);
+        }
+        .skew-Y2
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:plum;
+            float: left;
+            margin: 50px 140px;
+            transition: all 1s;
+            z-index: 1;
+            position: relative;
+        }
+        /* .skew-Y:after
+        {
+            content: "";
+            width: 200px;
+            height: 200px;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: cadetblue;
+            z-index: -1;
+            transform: scaleY(0deg);
+        } */
+        .skew-Y2:hover
+        {
+            transform: skewY(40deg);
+        }
+        .skew2
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:coral;
+            float: left;
+            margin: 50px 140px;
+            transition: all 1s;
+        }
+        .skew2:hover
+        {
+            transform: skew(50deg , 20deg);
+        }
+    </style>
+</head>
+<body>
+
+    <h1><u>Transform : skew Property</u></h1>
+    
+    <div class="skew-X1">
+        <p  >Transform : skew-X</p>
+    </div>
+    <div class="skew-Y1">
+        <p  >Transform : skew-Y</p>
+    </div>
+    <div class="skew1">
+        <p  >Transform : skew(X , Y)</p>
+    </div>
+
+    <div class="skew-X2">
+        <p  >Transform : skew-X</p>
+    </div>
+    <div class="skew-Y2">
+        <p  >Transform : skew-Y</p>
+    </div>
+    <div class="skew2">
+        <p  >Transform : skew(X , Y)</p>
+    </div>
+
+</body>
+</html>

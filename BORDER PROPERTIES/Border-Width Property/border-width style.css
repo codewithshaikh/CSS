@@ -1,0 +1,89 @@
+#box1{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin: 25px 10px;
+	border-style: solid;
+	border-width: inherit;
+}
+#box1 h1{
+	text-align: center;
+}
+#box1 p{
+	width: 300px;
+	text-align: justify;
+	margin: 10px auto;
+	font-size: 13px;
+}
+
+#box2{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin: 25px 10px;
+	border-style: solid;
+	border-width: medium;
+}
+#box2 h1{
+	text-align: center;
+}
+#box2 p{
+	width: 300px;
+	text-align: justify;
+	margin: 10px auto;
+	font-size: 13px;
+}
+
+#box3{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin: 25px 10px;
+	border-style: solid;
+	border-width: thick;
+}
+#box3 h1{
+	text-align: center;
+}
+#box3 p{
+	width: 300px;
+	text-align: justify;
+	margin: 10px auto;
+	font-size: 13px;
+}
+
+#box4{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin: 25px 10px;
+	border-style: solid;
+	border-width: thin;
+}
+#box4 h1{
+	text-align: center;
+}
+#box4 p{
+	width: 300px;
+	text-align: justify;
+	margin: 10px auto;
+	font-size: 13px;
+}
+
+#box5{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin: 25px 10px;
+	border-style: solid;
+	border-width: 30px;
+}
+#box5 h1{
+	text-align: center;
+}
+#box5 p{
+	width: 300px;
+	text-align: justify;
+	margin: 10px auto;
+	font-size: 13px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation Practice 3</title>
+
+	<style type="text/css">
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		body{
+			background-color: gray;
+		}
+
+		.div1{
+			display: flex;
+			height: 100vh;
+			justify-content: center;
+			align-items: center;
+		}
+		.div1 ul{
+			display: flex;
+			border-bottom: 10px solid white;
+		}
+		.div1 ul li{
+			width: 50px;
+			height: 50px;
+			background-color: black;
+			list-style: none;
+			margin: 0px 10px;
+			border-radius: 50%;
+			animation-name: bounce;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+
+		@keyframes bounce{
+			0%{transform: translatey(0px);}
+			50%{transform: translateY(-150px);}
+			100%{transform: translateY(0px);}
+		}
+
+		.div1 ul li:nth-child(1){
+			animation-delay: 0.2s;
+			background-color: pink;
+		}
+		.div1 ul li:nth-child(2){
+			animation-delay: 0.6s;
+			background-color: #FF00FF;
+		}
+		.div1 ul li:nth-child(3){
+			animation-delay: 0.4s;
+			background-color:lightyellow;
+		}
+		.div1 ul li:nth-child(4){
+			animation-delay: 0.8s;
+			background-color: #87CEFA;
+		}
+		.div1 ul li:nth-child(5){
+			animation-delay: 0.5s;
+			background-color: cyan;
+		}
+
+		.div2{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.div2 ul{
+			display: flex;
+			border-top: 10px solid white;
+			margin-top: -690px;
+		}
+		.div2 ul li{
+			width: 50px;
+			height: 50px;
+			background-color: black;
+			list-style: none;
+			margin: 0px 10px;
+			border-radius: 50%;
+			animation-name: bounce2;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+		@keyframes bounce2{
+			0%{transform: translateY(0);}
+			50%{transform: translateY(150px);}
+			100%{transform: translateY(0);}
+		}
+		.div2 ul li:nth-child(1){
+			animation-delay: 0.2s;
+			background-color: red;
+		}
+		.div2 ul li:nth-child(2){
+			animation-delay: 0.6s;
+			background-color: purple;
+		}
+		.div2 ul li:nth-child(3){
+			animation-delay: 0.4s;
+			background-color: yellow;
+		}
+		.div2 ul li:nth-child(4){
+			animation-delay: 0.2s;
+			background-color: royalblue;
+		}
+		.div2 ul li:nth-child(5){
+			animation-delay: 0.2s;
+			background-color: darkcyan;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="div1">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<div class="div2">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+</body>
+</html>

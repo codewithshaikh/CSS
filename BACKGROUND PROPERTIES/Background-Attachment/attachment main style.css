@@ -1,0 +1,19 @@
+body{
+	background-image: url("night.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1, p{
+	margin: 20px 300px;
+	color: white;
+	font-family: tahoma;
+	float: left;
+}
+h1{
+	font-size: 65px;
+}
+p{
+	font-size: 20px;
+}

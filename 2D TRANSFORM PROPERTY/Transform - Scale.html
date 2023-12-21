@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .scale-X1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: aquamarine;
+            float: left;
+            margin: 100px 140px;
+            transform: scaleX(2);
+        }        
+        .scale-Y1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:plum;
+            float: left;
+            margin: 100px 140px;
+            transform: scaleY(2);
+        }
+        .scale1
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:coral;
+            float: left;
+            margin: 100px 140px;
+            transform: scale(2,2);
+        }        
+
+        .scale-X
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: aquamarine;
+            float: left;
+            margin: 50px 140px;
+            transition: all 1s;
+        }
+        .scale-X:hover
+        {
+            transform: scaleX(2);
+        }
+        .scale-Y
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:plum;
+            float: left;
+            margin: 50px 140px;
+            transition: all 1s;
+        }
+        .scale-Y:hover
+        {
+            transform: scaleY(2);
+        }
+        .scale
+        {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background-color:coral;
+            float: left;
+            margin: 50px 140px;
+            transition: all 1s;
+        }
+        .scale:hover
+        {
+            transform: scale(2 , 2);
+        }
+    </style>
+</head>
+<body>
+
+    <h1><u>Transform : scale Property</u></h1>
+    
+    <div class="scale-X1">
+        <p  >Transform : scale-X</p>
+    </div>
+    <div class="scale-Y1">
+        <p  >Transform : scale-Y</p>
+    </div>
+    <div class="scale1">
+        <p  >Transform : scale(X , Y)</p>
+    </div>
+
+    <div class="scale-X">
+        <p  >Transform : scale-X</p>
+    </div>
+    <div class="scale-Y">
+        <p  >Transform : scale-Y</p>
+    </div>
+    <div class="scale">
+        <p  >Transform : scale(X , Y)</p>
+    </div>
+
+</body>
+</html>

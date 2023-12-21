@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation</title>
+
+	<style type="text/css">
+		
+		body{
+			font-family: arial;
+			background-color: papayawhip;
+		}
+
+		h1{
+			font-style: italic;
+			font-weight: bold;
+			font-size: 40px;
+			text-align: center;
+			animation-name: h1;
+			animation-duration: 10s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+
+		div{
+			width: 250px;
+			height: 250px;
+			background-color: white;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			font-size: 25px;
+			border: none;
+			outline: none;
+			line-height: 250px;
+			box-shadow: 10px 10px 10px 0px gray;
+			text-shadow: 10px 10px 5px gray;
+			animation-name: sachin;
+			animation-duration: 2s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes h1{
+			0%{
+				background-color: white;
+				color: black;
+			}
+			10%{
+				background-color: red;
+				color: white;
+			}
+			20%{
+				background-color: orange;
+				color: red;
+			}
+			30%{
+				background-color: yellow;
+				color: orange;
+			}
+			40%{
+				background-color: blue;
+				color: yellow;
+			}
+			50%{
+				background-color: purple;
+				color: lightblue;
+			}
+			60%{
+				background-color: green;
+				color: violet;
+			}
+			70%{
+				background-color: yellowgreen;
+				color: green;
+			}
+			80%{
+				background-color: cyan;
+				color: yellowgreen;
+			}
+			90%{
+				background-color: silver;
+				color: cyan;
+			}
+			100%{
+				background-color: black;
+				color: silver;
+			}
+		}
+		@keyframes sachin{
+			from{
+				background-color: white;
+				color: black;
+			}
+			to{
+				background-color: red;
+				color: white;
+				border-radius: 50%;
+				font-size: 16px;
+				box-shadow: 20px 20px 20px 0px gray;
+				text-shadow: 15px 15px 4.5px gray;
+				font-weight: bolder;
+			}
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<h1>CSS ANIMATION PROPERTY</h1>
+
+	<div></div>
+
+</body>
+</html>
