@@ -1,0 +1,36 @@
+body{
+	font-family: tahoma;
+}
+
+div{
+	width: 600px;
+	height: 400px;
+	float: left;
+	border: 5px solid red;
+	overflow: auto;
+	margin: 25px 60px;
+}
+div h1{
+	text-align: center;
+}
+#box1 img{
+	position: static;
+	left: 400px;
+	top: 300px;
+}
+#box2 img{
+	position: relative;
+	left: 300px;
+	top: 50px;
+}
+#box3 img{
+	position: fixed;
+}
+#box4{
+	position: relative;
+}
+#box4 img{
+	position: absolute;
+	left: 300px;
+	top: 200px;
+}
