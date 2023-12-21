@@ -1,0 +1,152 @@
+/* Navbar 1 */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar21{
+	background-color: grey;
+	padding: 20px;
+}
+
+.h1{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.h1:hover{
+	color: violet;
+}
+.ol1 {
+	list-style: none;
+	float: right;
+	display:flex;
+}
+
+.li1{
+	margin-top: -30px;
+	padding: 8px;
+	font-size: 20px;
+	color: blue;
+}
+	
+.li1:hover{
+	color:white;
+}
+
+/* Navbar2 */
+.navbar22{
+	margin-top: -25px;
+	background-color: grey;
+	height: 350px;
+	width: 200px;
+}	
+
+.ol2{
+	font-size: 25px;
+	list-style: none;
+}
+.li2{
+	margin:0px 0px 0px 30px;
+	padding: 10px;
+	font-size: 20px;
+	color: blue;
+}
+.li2:hover{
+	color: yellow;
+}
+
+/* NavBar 3 */
+
+.navbar233{
+	margin: -325px 0px 0px 0px;
+	float: right;
+	background-color:orange;
+	height: 323px;
+	width: 200px;
+}	
+
+.h3{
+	font-size: 30px;
+	margin: 10px 0px 20px  25px;
+}
+.h3:hover{
+	font-size: 30px;
+	font-family: Harlow Solid;
+	color: Green;
+}
+.ol3{
+	font-size: 25px;
+	list-style: none;
+}
+.li3{
+	margin:0px 0px 0px 30px;
+	padding: 10px;
+	font-size: 20px;
+	color: black;
+}
+.li3:hover{
+	padding-left: 30px;
+	font-size: 25px;
+	color: Red;
+}
+
+
+
+/* Navbar 4 for Last */
+
+.navbar24{
+	height: 36.8%;
+	width: 100%;
+	background-color: darkblue;
+	margin: -20px 0px 0px 0px ;
+}
+.picture{
+	list-style: none;
+	display: flex;
+	margin: -35px 0px 0px 950px;
+}
+.ol41{
+	list-style: none;
+	margin: -5px 0px 0px 40px;
+}
+
+.ol42{
+	list-style: none;
+	margin: -100px 0px 0px 400px;
+}
+
+.ol43{
+	list-style: none;
+	margin: -123px 0px 0px 750px;
+}
+
+.ol44{
+	list-style: none;
+	margin: -140px 0px 0px 1100px;
+}
+
+.li4{
+	font-size: 30px;
+	color: white;
+}
+
+.li41{
+	font-size: 15px;
+	color: white;
+	margin-top: 5px;
+}
+
+.copyright{
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	margin: 0px 0px 0px 350px ;
+	font-size: 15px;
+	color: white;
+}
+.atag{
+	margin: -25px 10px 0px 500px ;
+	color: Red;
+	text-decoration: underline;
+}

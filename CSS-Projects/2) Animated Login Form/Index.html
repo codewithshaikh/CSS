@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Form</title>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		font-family: poppins;
+	}
+
+	body{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+		background: black;
+	}
+
+	.container{
+		position: relative;
+		border: 2px solid black;
+		width: 380px;
+		height: 450px;
+		border-radius: 7px;
+		inset: 4px;
+		background: #1a1919a;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.container::before{
+		content: '';
+		width: 380px;
+		height: 420px;
+		position: absolute;
+		top: -50%;
+		left: -50%;
+		background: linear-gradient(0deg , transparent , transparent , #45f3ff , #45f3ff , #45f3ff);
+		transform-origin: bottom right;
+		animation:  rotates 6s linear infinite ;
+	}
+
+	.container:after{
+		content: "";
+		width: 400px;
+		height: 450px;
+		position: absolute;
+		top: -50%;
+		left: -50%;
+		background: linear-gradient(0deg , transparent , transparent , #45f3ff , #45f3ff , #45f3ff);
+		transform-origin: bottom right;
+		animation:  rotates 6s linear 1.5s infinite ;
+	}
+
+	.borders::before{
+		content: '';
+		width: 380px;
+		height: 420px;
+		position: absolute;
+		top: -50%;
+		left: -50%;
+		background: linear-gradient(0deg , transparent , transparent , #e83dff , #e83dff , #e83dff);
+		transform-origin: bottom right;
+		animation:  rotates 6s linear 3.5s infinite ;
+	}
+
+	.borders:after{
+		content: "";
+		width: 400px;
+		height: 450px;
+		position: absolute;
+		top: -50%;
+		left: -50%;
+		background: linear-gradient(0deg , transparent , transparent , #e83dff , #e83dff , #e83dff);
+		transform-origin: bottom right;
+		animation:  rotates 6s linear 5s infinite ;
+	}
+
+	@keyframes rotates{
+
+		0%{
+			transform: rotate(0deg);
+		}
+
+		100%{
+			transform: rotate(360deg);
+		}
+	}
+
+	.container form{
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		background: #191a19;
+		width: 99%;
+		height: 99%;
+		z-index: 1;
+	}
+
+	.container form h2{
+		text-align: center;
+		font-size: 30px;
+		letter-spacing: 0.1rem;
+		color: #fff;
+	}
+
+	.container form .cover{
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+		height: 70px;
+		position: relative;
+		margin: 20px 0px;
+	}
+
+	.container form .cover input{
+		position: absolute;
+		left: 10px;
+		top: 20px;
+		width: 280px;
+		height: 40px;
+		font-size: 17px;
+		padding: 10px 20px;
+		background: transparent;
+		border: none;
+		border-bottom:2px solid white ;
+		transition: 2.5s all ease-in-out ;
+	}
+
+	.container form .cover .label{
+		position: absolute;
+		top: 27px;
+		left: 27px;
+		letter-spacing: 1px;
+		font-size: 16px;
+		font-weight: 550;
+		color: white;
+		transition: 0.5s all ease-in-out; 
+		
+	}
+
+
+	.container form .cover input:focus
+	{
+		outline: none;
+		background: white;
+		border-radius: 7px;
+
+	}
+
+	.container form .cover input:focus  ~  .label
+	{
+	    font-size: 13px;
+	    font-weight: 500;
+	    letter-spacing: 1.5px;
+	    color: white;
+	    background: #191a19;
+	    padding:0px 5px;
+	    border-radius: 20px;
+	    border: 1px solid #fff;
+	    position: absolute;
+	    top: 9px;
+		left: 22px;
+	    
+	}
+
+
+	.container form .links{
+		display: flex;
+		width: 300px;
+		height: 40px;
+		padding: 6px 5px;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	.container form .links a{
+		font-size: 16px;
+		letter-spacing: 1px;
+		font-weight: none;
+		text-decoration: none;
+		color: blueviolet;
+	}
+
+	.container form .btns{
+		width: 300px;
+		margin: 10px 0px;
+	}
+
+	.container form  button{
+		background: white;
+		margin: 10px;
+		width: 50%;
+		font-size: 17px;
+		font-weight: bold;
+		padding: 7px 15px;
+		border-radius: 5px;
+		border: none;
+		letter-spacing: 1px;
+	}
+
+
+
+</style>
+<body>
+
+	<div class="container">
+		<span class="borders"></span>
+		<form>
+			<h2>Sign in</h2>
+			<div class="cover c1">
+				<input type="text" name="">
+				<label class="label">Username</label>
+			</div>
+
+			<div class="cover c2">
+				<input type="password" name="">
+				<label class="label">Password</label>
+			</div>
+
+			<div class="links">
+				<a href="#">Forget Password ?</a>
+				<a href="#">Sign Up</a>
+			</div>
+
+			<div class="btns">
+				<button>Login</button>
+			</div>
+		</form>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Practice </title>
+	<style>
+		.crosshair{
+			width: 150px;
+			height: 150px;
+			background-color: Red;
+			cursor: crosshair;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.pointer{
+			margin: -150px 0px 0px 200px;
+			width: 150px;
+			height: 150px;
+			background-color: Green;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.move{
+			margin: -150px 0px 0px 400px;
+			width: 150px;
+			height: 150px;
+			background-color: yellow;
+			cursor: move;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.e-resize{
+			margin: -150px 0px 0px 600px;
+			width: 150px;
+			height: 150px;
+			background-color: orange;
+			cursor:e-resize ;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.ne-resize{
+			margin: -150px 0px 0px 800px;
+			width: 150px;
+			height: 150px;
+			background-color: pink;
+			cursor: ne-resize;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.nw-resize{
+			margin: -150px 0px 0px 1000px;
+			width: 150px;
+			height: 150px;
+			background-color: violet;
+			cursor: nw-resize;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.n-resize{
+			margin: 15px 0px 0px 0px;
+			width: 150px;
+			height: 150px;
+			background-color: Red;
+			cursor: n-resize;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.se-resize{
+			margin: -150px 0px 0px 200px;
+			width: 150px;
+			height: 150px;
+			background-color: Green;
+			cursor: se-resize;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.sw-resize{
+			margin: -150px 0px 0px 400px;
+			width: 150px;
+			height: 150px;
+			background-color: yellow;
+			cursor: sw-resize;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.s-resize{
+			margin: -150px 0px 0px 600px;
+			width: 150px;
+			height: 150px;
+			background-color: orange;
+			cursor: s-resize;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.w-resize{
+			margin: -150px 0px 0px 800px;
+			width: 150px;
+			height: 150px;
+			background-color: pink;
+			cursor:w-resize ;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.text{
+			margin: -150px 0px 0px 1000px;
+			width: 150px;
+			height: 150px;
+			background-color: violet;
+			cursor: text;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.wait{
+			margin: 15px 0px 0px 00px;
+			width: 150px;
+			height: 150px;
+			background-color: Red;
+			cursor: wait;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.help{
+			margin: -150px 0px 0px 200px;
+			width: 150px;
+			height: 150px;
+			background-color: Green;
+			cursor: help;font-size: 18px;
+			font-weight: bold;
+		}
+
+		.none{
+			margin: -150px 0px 0px 400px;
+			width: 150px;
+			height: 150px;
+			background-color: yellow;
+			cursor: none;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.not-allowed{
+			margin: -150px 0px 0px 600px;
+			width: 150px;
+			height: 150px;
+			background-color: orange;
+			cursor: not-allowed;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.auto{
+			margin: -150px 0px 0px 800px;
+			width: 150px;
+			height: 150px;
+			background-color: hotpink;
+			cursor: auto;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.default{
+			margin: -150px 0px 0px 1000px;
+			width: 150px;
+			height: 150px;
+			background-color: violet;
+			cursor: default;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		
+	</style>
+</head>
+<body>
+
+	<div class="crosshair">
+		Cursor: Crosshair
+	</div>
+
+	<div class="pointer">
+		Cursor: Pointer
+	</div>
+
+	<div class="move">
+		Cursor: Move
+	</div>
+
+	<div class="e-resize">
+		Cursor: E-resize
+	</div>
+
+	<div class="ne-resize">
+		Cursor:ne-resize
+	</div>
+
+	<div class="nw-resize">
+		Cursor: nw-resize
+	</div>
+
+	<div class="n-resize">
+		Cursor: n-resize
+	</div>
+
+	<div class="se-resize">
+		Cursor: se-resize
+	</div>
+
+	<div class="sw-resize">
+		Cursor: sw-resize
+	</div>
+
+	<div class="s-resize">
+		Cursor: s-resize
+	</div>
+
+	<div class="w-resize">
+		Cursor: w-resize
+	</div>
+
+	<div class="text">
+		Cursor: Text
+	</div>
+
+	<div class="wait">
+		Cursor: Wait
+	</div>
+
+	<div class="help">
+		Cursor: Help
+	</div>
+
+	<div class="none">
+		Cursor: None
+	</div>
+
+	<div class="not-allowed">
+		Cursor: Not-Allowed
+	</div>
+
+	<div class="auto">
+		Cursor: Auto
+	</div>
+	
+	<div class="default">
+		Cursor: Default
+	</div>
+
+</body>
+</html>

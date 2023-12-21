@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.dropdown{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	
+	transition: all 1s ease-in-out;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin: 10px 15px;
+}
+
+.dropdown-content
+{
+	display: none
+}
+
+.dropdown-content a{
+	color: black;
+	text-decoration: none;
+	margin: 5px;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
