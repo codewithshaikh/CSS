@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+}
+
+
+body{
+	font-family: tahoma;
+}
+
+p{
+	background-color: red;
+	color: white;
+	padding: 2px 20px;
+	margin: 10px 0px;
+}
+
+#sp ul{
+	list-style-type: circle;
+	list-style-position: inside;
+
+}
+
+#sp ol{
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+#img li{
+	list-style-image: url('arrow.png');
+}
+
+#sc li{
+	list-style: disc inside url('arrow.png');
+}
+
